@@ -1,7 +1,7 @@
  /**
   this function calculate the value of crossProduct between two vectors.
-  this value can help to determain if vector is in one side of the vector in the other side of it.
-  if the value is positive is in one side and if negative, in the other side.
+  this value can help to determain if vector is in one side of the vector, or in the other side of it.
+  if the value is positive, is in one side. and if negative, in the other side.
   - YOU CAN SEE USE OF THIS METHOD IN "Mini-Pro" FOR TRIANGLE & POLYGON RAY INTERSECTION FINDING.
  */
  public double crossProductValue(Vector vec1,Vector vec2){
