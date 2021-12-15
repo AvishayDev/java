@@ -4,8 +4,8 @@
   if the value is positive is in one side and if negative, in the other side.
   - YOU CAN SEE USE OF THIS METHOD IN "Mini-Pro" FOR TRIANGLE & POLYGON RAY INTERSECTION FINDING.
  */
- public double crossProductValue(Vector vec){
-        return ((this.head.y.coord * vec.head.z.coord) - (this.head.z.coord * vec.head.y.coord))-
-                ((this.head.z.coord * vec.head.x.coord) - (this.head.x.coord * vec.head.z.coord))+
-                ((this.head.x.coord * vec.head.y.coord) - (this.head.y.coord * vec.head.x.coord));
+ public double crossProductValue(Vector vec1,Vector vec2){
+        return ((vec1.y * vec2.z) - (vec1.z * vec2.y))-
+                ((vec1.z * vec2.x) - (vec1.x * vec2.z))+
+                ((vec1.x * vec2.y) - (vec1.y * vec2.x));
     }
